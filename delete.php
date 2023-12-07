@@ -1,8 +1,5 @@
 <?php
-$servername = "127.0.0.1";
-$username = "galih";
-$password = "galih123";
-$dbname = "telco";
+include 'konekDB.php';
 
 // koneksi
 $conn = new mysqli($servername, $username, $password, $dbname);
